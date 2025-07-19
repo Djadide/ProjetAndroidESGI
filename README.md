@@ -18,7 +18,7 @@ Une application Android native de quiz, développée en Java avec intellij.
 ## Lancer et tester
 
 1. **Cloner le projet** :  
-   `git clone <repo-url>`
+   `git clone https://github.com/Djadide/ProjetAndroidESGI.git`
 
 2. **Ouvrir dans intellij**
 

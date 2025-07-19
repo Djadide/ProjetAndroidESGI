@@ -45,13 +45,13 @@ public class QuizActivity extends AppCompatActivity {
 
         binding.nextButton.setOnClickListener(v -> checkAnswer());
 
-        // Chronomètre (bonus : l’ajouter dans le layout)
+
         timerRunnable = () -> {
             long millis = System.currentTimeMillis() - startTime;
             int seconds = (int) (millis / 1000);
             int minutes = seconds / 60;
             seconds = seconds % 60;
-            // Tu peux afficher ce temps dans un TextView si tu ajoutes un `chronoTextView` dans layout
+
             timerHandler.postDelayed(timerRunnable, 1000);
         };
         timerHandler.postDelayed(timerRunnable, 0);

@@ -13,19 +13,15 @@ public class ProfilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
 
-        // Appliquer la couleur de fond définie dans colors.xml
         findViewById(R.id.profilRootLayout)
                 .setBackgroundResource(R.color.profilBackground);
-
-        // Extraire le prénom passé par Intent
         String firstName = getIntent().getStringExtra("FIRST_NAME");
         if (firstName == null) firstName = "";
 
-        // Chaîne multilingue avec placeholder
         TextView welcomeTextView = findViewById(R.id.welcomeTextView);
         welcomeTextView.setText(getString(R.string.welcome_message, firstName));
 
-        // Image de profil (depuis drawable)
+        // Image de profil
         ImageView imageView = findViewById(R.id.profileImageView);
         imageView.setImageResource(R.drawable.baseline_account_circle_24);
 
