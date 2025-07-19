@@ -1,0 +1,13 @@
+<resources>
+    <string name="welcome_message">Bonjour %1$s !</string>
+    <string name="back_button">Retour</string>
+    <string name="avatar_desc">Photo de profil</string>
+    <string name="app_name">ProjetQuizEsgi</string>
+    <string name="next_button_text">suivant</string>
+    <string name="start_button_text">Démarrer le Quiz</string>
+    <string name="name_hint">Entrez votre nom</string>
+    <string name="enter_name_toast">Veuillez entrer votre nom</string>
+    <string name="choose_answer_toast">Veuillez choisir la réponse</string>
+    <string name="capital_question">Quelle est la capitale de la France ?</string>
+    <string name="math_question">ça fait quoi 2 + 2 ?</string>
+</resources>
