@@ -24,32 +24,50 @@ Une application Android native de quiz, développée en Java avec IntelliJ.
 
 ## Structure du projet
 
-app/
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/projetquizesgi/
-│ │ │ ├── MainActivity.java
-│ │ │ ├── ProfilActivity.java
-│ │ │ ├── QuizActivity.java
-│ │ │ ├── ResultatActivity.java
-│ │ │ ├── Question.java
-│ │ ├── res/
-│ │ │ ├── layout/
-│ │ │ │ ├── activity_main.xml
-│ │ │ │ ├── activity_profil.xml
-│ │ │ │ ├── activity_quiz.xml
-│ │ │ │ ├── activity_resultat.xml
-│ │ │ ├── values/
-│ │ │ │ ├── strings.xml
-│ │ │ │ ├── colors.xml
-│ │ │ │ ├── values-en/
-│ │ │ │ │ └── strings.xml
-│ │ │ ├── drawable/
-│ │ │ │ ├── baseline_account_circle_24.xml
-│ │ │ │ ├── ic_launcher_background.xml
-│ │ │ │ ├── ic_launcher_foreground.xml
-      AndroidManifest.xml
-...
+app/src/main
+├── AndroidManifest.xml
+├── java
+│   └── com
+│       └── example
+│           └── projetquizesgi
+└── res
+├── drawable
+│   ├── baseline_account_circle_24.xml
+│   ├── ic_launcher_background.xml
+│   └── ic_launcher_foreground.xml
+├── layout
+│   ├── activity_main.xml
+│   ├── activity_profil.xml
+│   ├── activity_quiz.xml
+│   └── activity_resultat.xml
+├── mipmap-anydpi
+│   ├── ic_launcher.xml
+│   └── ic_launcher_round.xml
+├── mipmap-hdpi
+│   ├── ic_launcher.webp
+│   └── ic_launcher_round.webp
+├── mipmap-mdpi
+│   ├── ic_launcher.webp
+│   └── ic_launcher_round.webp
+├── mipmap-xhdpi
+│   ├── ic_launcher.webp
+│   └── ic_launcher_round.webp
+├── mipmap-xxhdpi
+│   ├── ic_launcher.webp
+│   └── ic_launcher_round.webp
+├── mipmap-xxxhdpi
+│   ├── ic_launcher.webp
+│   └── ic_launcher_round.webp
+├── values
+│   ├── colors.xml
+│   ├── strings.xml
+│   └── themes.xml
+├── values-night
+│   └── themes.xml
+└── xml
+├── backup_rules.xml
+└── data_extraction_rules.xml
+
 
 
 ## Lancer et tester
